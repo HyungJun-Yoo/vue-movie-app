@@ -48,7 +48,7 @@
               :title="name"
               class="rating">
               <img 
-                :src="`src/assets/${name}.png`"
+                :src="`https://raw.githubusercontent.com/HyungJun-Yoo/vue-movie-app/master/src/assets/${name}.png`"
                 :alt="name" />
               <span>{{ score }}</span>
             </div>
