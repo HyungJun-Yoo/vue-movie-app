@@ -67,7 +67,7 @@ export default {
             })
           }
         }
-      } catch (message) {
+      } catch ({ message }) {
         commit('updateState', {
           movies: [],
           message
